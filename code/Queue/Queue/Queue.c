@@ -164,6 +164,7 @@ void Enqueue(ElementType X, Queue Q) {
     Q->Rear->Next = P;
     // 设置队列的队尾
     Q->Rear = P;
+    printf("==%d=入队了==",X);
 }
 
 // 出队列
@@ -175,7 +176,7 @@ void Dequeue(Queue Q) {
     QueuePtr P = Q->Front->Next;
     Q->Front->Next = P->Next;
     if (Q->Rear == P) { //判断队列中是否只有一个元素
-        Q->Rear = Q->Rear;
+        Q->Rear = Q->Front;
     }
     free(P);
 }

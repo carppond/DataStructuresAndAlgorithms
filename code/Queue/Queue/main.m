@@ -17,15 +17,17 @@ int main(int argc, const char * argv[]) {
         for (i =1; i< 13;++i) {
             Enqueue(i, Q);
         }
-        while (!IsImpty(Q) && Front(Q) != -1) {
-            printf("==%d \n",Front(Q));
-            Dequeue(Q);
-        }
-        printf("==============================\n======================");
-        MakeEmpty(Q);
-        printf("==%d \n",Front(Q));
-        DisposeQueue(Q);
-        getchar();
+//        while (!IsImpty(Q) && Front(Q) != -1) {
+//            printf("==%d \n",Front(Q));
+//            Dequeue(Q);
+//        }
+        PrintQueue(Q);
+        
+//        printf("==============================\n======================");
+//        MakeEmpty(Q);
+//        printf("==%d \n",Front(Q));
+//        DisposeQueue(Q);
+//        getchar();
     }
     return 0;
 }
