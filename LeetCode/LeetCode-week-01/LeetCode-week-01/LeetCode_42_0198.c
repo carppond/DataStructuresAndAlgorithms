@@ -1,15 +1,15 @@
 //
-//  main.m
+//  LeetCode_42_0198.c
 //  LeetCode-week-01
 //
-//  Created by cf on 2019/12/15.
+//  Created by lcf on 2019/12/16.
 //  Copyright © 2019 cf. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include "LeetCode_42_0198.h"
 
-int trap(int* height, int heightSize){
-    
+int trap(int* height, int heightSize) {
+
     int left = 0, right = heightSize - 1;
     int ans = 0;
     int left_max = 0, right_max = 0;
@@ -34,15 +34,4 @@ int trap(int* height, int heightSize){
         }
     }
     return ans;
-}
-
-
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-        int nums1[] = {0,1,0,2,1,0,1,3,2,1,2,1};
-        int ans = trap(nums1, 12);
-        printf("===%d \n",ans);
-    }
-    return 0;
 }

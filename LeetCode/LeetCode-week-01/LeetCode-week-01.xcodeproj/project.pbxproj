@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7C863823A71B09008889C1 /* LeetCode_1_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C863723A71B09008889C1 /* LeetCode_1_0198.c */; };
+		5F7C863B23A71BE6008889C1 /* LeetCode_283_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C863A23A71BE6008889C1 /* LeetCode_283_0198.c */; };
+		5F7C863E23A728DE008889C1 /* LeetCode_66_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C863D23A728DE008889C1 /* LeetCode_66_0198.c */; };
+		5F7C864123A75822008889C1 /* LeetCode_641_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C864023A75822008889C1 /* LeetCode_641_0198.c */; };
+		5F7C864423A75FC5008889C1 /* LeetCode_42_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C864323A75FC5008889C1 /* LeetCode_42_0198.c */; };
 		6DF98ED923A61E4D00D20CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF98ED823A61E4D00D20CCB /* main.m */; };
 		6DF98EE123A61EBF00D20CCB /* LeetCode_26_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DF98EE023A61EBF00D20CCB /* LeetCode_26_0198.c */; };
 		6DF98EE423A6200500D20CCB /* LeetCode_189_0198.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DF98EE323A6200500D20CCB /* LeetCode_189_0198.c */; };
@@ -27,6 +32,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F7C863623A71B09008889C1 /* LeetCode_1_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_1_0198.h; sourceTree = "<group>"; };
+		5F7C863723A71B09008889C1 /* LeetCode_1_0198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_1_0198.c; sourceTree = "<group>"; };
+		5F7C863923A71BE6008889C1 /* LeetCode_283_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_283_0198.h; sourceTree = "<group>"; };
+		5F7C863A23A71BE6008889C1 /* LeetCode_283_0198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_283_0198.c; sourceTree = "<group>"; };
+		5F7C863C23A728DE008889C1 /* LeetCode_66_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_66_0198.h; sourceTree = "<group>"; };
+		5F7C863D23A728DE008889C1 /* LeetCode_66_0198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_66_0198.c; sourceTree = "<group>"; };
+		5F7C863F23A75822008889C1 /* LeetCode_641_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_641_0198.h; sourceTree = "<group>"; };
+		5F7C864023A75822008889C1 /* LeetCode_641_0198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_641_0198.c; sourceTree = "<group>"; };
+		5F7C864223A75FC5008889C1 /* LeetCode_42_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_42_0198.h; sourceTree = "<group>"; };
+		5F7C864323A75FC5008889C1 /* LeetCode_42_0198.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_42_0198.c; sourceTree = "<group>"; };
 		6DF98ED523A61E4D00D20CCB /* LeetCode-week-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-week-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF98ED823A61E4D00D20CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DF98EDF23A61EBF00D20CCB /* LeetCode_26_0198.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_26_0198.h; sourceTree = "<group>"; };
@@ -78,6 +93,16 @@
 				6DF98EE623A6229C00D20CCB /* LeetCode_21_0198.c */,
 				6DF98EE823A623E300D20CCB /* LeetCode_88_0198.h */,
 				6DF98EE923A623E300D20CCB /* LeetCode_88_0198.c */,
+				5F7C863623A71B09008889C1 /* LeetCode_1_0198.h */,
+				5F7C863723A71B09008889C1 /* LeetCode_1_0198.c */,
+				5F7C863923A71BE6008889C1 /* LeetCode_283_0198.h */,
+				5F7C863A23A71BE6008889C1 /* LeetCode_283_0198.c */,
+				5F7C863C23A728DE008889C1 /* LeetCode_66_0198.h */,
+				5F7C863D23A728DE008889C1 /* LeetCode_66_0198.c */,
+				5F7C863F23A75822008889C1 /* LeetCode_641_0198.h */,
+				5F7C864023A75822008889C1 /* LeetCode_641_0198.c */,
+				5F7C864223A75FC5008889C1 /* LeetCode_42_0198.h */,
+				5F7C864323A75FC5008889C1 /* LeetCode_42_0198.c */,
 			);
 			path = "LeetCode-week-01";
 			sourceTree = "<group>";
@@ -139,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7C864423A75FC5008889C1 /* LeetCode_42_0198.c in Sources */,
+				5F7C863B23A71BE6008889C1 /* LeetCode_283_0198.c in Sources */,
+				5F7C863823A71B09008889C1 /* LeetCode_1_0198.c in Sources */,
 				6DF98EE423A6200500D20CCB /* LeetCode_189_0198.c in Sources */,
 				6DF98EE123A61EBF00D20CCB /* LeetCode_26_0198.c in Sources */,
+				5F7C863E23A728DE008889C1 /* LeetCode_66_0198.c in Sources */,
+				5F7C864123A75822008889C1 /* LeetCode_641_0198.c in Sources */,
 				6DF98ED923A61E4D00D20CCB /* main.m in Sources */,
 				6DF98EEA23A623E300D20CCB /* LeetCode_88_0198.c in Sources */,
 				6DF98EE723A6229C00D20CCB /* LeetCode_21_0198.c in Sources */,
