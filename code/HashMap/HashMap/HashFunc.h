@@ -13,4 +13,6 @@
 
 typedef unsigned int Index;
 
+// 比较靠谱的
+Index HashCode(int TableSize, void * key);
 #endif /* HashFunc_h */
