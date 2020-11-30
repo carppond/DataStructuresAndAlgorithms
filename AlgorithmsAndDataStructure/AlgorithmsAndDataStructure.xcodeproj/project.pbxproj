@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F1B2D142574E2EF0068FC1E /* StackLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B2D132574E2EF0068FC1E /* StackLinkedList.c */; };
+		5F1B2D182574ECE50068FC1E /* StackArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B2D172574ECE50068FC1E /* StackArray.c */; };
 		5FBC6EF4255E5A940016C616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC6EF3255E5A940016C616 /* main.m */; };
 		5FC0A6CD2566590300EF5C95 /* SinglyLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0A6CC2566590300EF5C95 /* SinglyLinkedList.c */; };
 		5FC0A6D12566703000EF5C95 /* CircularLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0A6D02566703000EF5C95 /* CircularLinkedList.c */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		5F1B2D122574E2EF0068FC1E /* StackLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackLinkedList.h; sourceTree = "<group>"; };
 		5F1B2D132574E2EF0068FC1E /* StackLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackLinkedList.c; sourceTree = "<group>"; };
+		5F1B2D162574ECE50068FC1E /* StackArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackArray.h; sourceTree = "<group>"; };
+		5F1B2D172574ECE50068FC1E /* StackArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackArray.c; sourceTree = "<group>"; };
 		5FBC6EF0255E5A940016C616 /* AlgorithmsAndDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsAndDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBC6EF3255E5A940016C616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FC0A6CB2566590300EF5C95 /* SinglyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedList.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				5FC0A6D4256670CE00EF5C95 /* DoubleLinkedList.c */,
 				5F1B2D122574E2EF0068FC1E /* StackLinkedList.h */,
 				5F1B2D132574E2EF0068FC1E /* StackLinkedList.c */,
+				5F1B2D162574ECE50068FC1E /* StackArray.h */,
+				5F1B2D172574ECE50068FC1E /* StackArray.c */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				5FC0A6D5256670CE00EF5C95 /* DoubleLinkedList.c in Sources */,
 				5FBC6EF4255E5A940016C616 /* main.m in Sources */,
 				5F1B2D142574E2EF0068FC1E /* StackLinkedList.c in Sources */,
+				5F1B2D182574ECE50068FC1E /* StackArray.c in Sources */,
 				5FC0A6D12566703000EF5C95 /* CircularLinkedList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
